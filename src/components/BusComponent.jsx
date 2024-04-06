@@ -85,7 +85,7 @@ const BusComponent = () => {
                         <div className="col-lg-6">
                         <div className="form-group">
                             <label>Date<span className="errmsg">*</span></label>
-                            <input placeholder='yyyy-mm-dd' value={busDate} onChange={e => setBusDate(e.target.value)} className="form-control"></input>
+                            <input type="date"  value={busDate} onChange={e => setBusDate(e.target.value)} className="form-control"></input>
                         </div>
                         </div>
                         <div className="card-footer">
