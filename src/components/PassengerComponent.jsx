@@ -146,7 +146,7 @@ return (
                     <div className="col-lg-6">
                         <div className="form-group">
                             <label>Passenger DOB. <span className="errmsg">*</span></label>
-                            <input value={dob}  placeholder="yyyy-mm-dd" onChange={e => setDob(e.target.value)} type="text" className="form-control"></input>
+                            <input value={dob} type="date"  onChange={e => setDob(e.target.value)} type="text" className="form-control"></input>
                         </div>
                         
                     </div>
