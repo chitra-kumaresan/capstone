@@ -62,7 +62,7 @@ return (
 
                             <label>Password <span className="errmsg">*</span></label>
 
-                            <input required  value={oldPassword}  onChange={e => setOldPassword(e.target.value)} className="form-control"></input>
+                            <input required  type='password'   value={oldPassword}  onChange={e => setOldPassword(e.target.value)} className="form-control"></input>
                             <br/>
                             {/* give New Password */}
 
