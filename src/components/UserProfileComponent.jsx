@@ -99,10 +99,19 @@ return (
 									</div>
 
 									<div className="col-sm-9">
-										<p className="text-muted mb-0">
-											{password}
-										</p>
 										
+                      <input
+                        type="password"
+                        name="password"
+                
+                        className="form-control"
+                        placeholder="Enter your Password"
+                        value={password}
+                
+                        required
+                      />
+										
+							
 									</div>
 								</div>
 								<hr />
